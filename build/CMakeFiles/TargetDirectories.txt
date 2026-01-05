@@ -1,3 +1,0 @@
-C:/Users/adnan/Desktop/Breakout/build/CMakeFiles/Breakout.dir
-C:/Users/adnan/Desktop/Breakout/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/adnan/Desktop/Breakout/build/CMakeFiles/ZERO_CHECK.dir
