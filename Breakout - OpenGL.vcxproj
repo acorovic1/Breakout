@@ -71,12 +71,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\VISUAL STUDIO PROJECTS\Breakout - OpenGL\Libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\VISUAL STUDIO PROJECTS\Breakout - OpenGL\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)Libraries\include;$(ProjectDir)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)Libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\VISUAL STUDIO PROJECTS\Breakout - OpenGL\Libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\VISUAL STUDIO PROJECTS\Breakout - OpenGL\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)Libraries\include;$(ProjectDir)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)Libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -137,43 +137,46 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BallObject.cpp" />
-    <ClCompile Include="Breakout - OpenGL.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="GameLevel.cpp" />
-    <ClCompile Include="GameObject.cpp" />
-    <ClCompile Include="glad.c" />
-    <ClCompile Include="ParticleGenerator.cpp" />
-    <ClCompile Include="PostProcessing.cpp" />
-    <ClCompile Include="ResourceManager.cpp" />
-    <ClCompile Include="Shader.cpp" />
-    <ClCompile Include="SpriteRenderer.cpp" />
-    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="src\BallObject.cpp" />
+    <ClCompile Include="src\Breakout - OpenGL.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\GameLevel.cpp" />
+    <ClCompile Include="src\GameObject.cpp" />
+    <ClCompile Include="src\glad.c" />
+    <ClCompile Include="src\LoadUtility.cpp" />
+    <ClCompile Include="src\ParticleGenerator.cpp" />
+    <ClCompile Include="src\PostProcessing.cpp" />
+    <ClCompile Include="src\ResourceManager.cpp" />
+    <ClCompile Include="src\Shader.cpp" />
+    <ClCompile Include="src\SpriteRenderer.cpp" />
+    <ClCompile Include="src\Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BallObject.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="GameLevel.h" />
-    <ClInclude Include="GameObject.h" />
-    <ClInclude Include="PowerUp.h" />
-    <ClInclude Include="ParticleGenerator.h" />
-    <ClInclude Include="PostProcessor.h" />
-    <ClInclude Include="ResourceManager.h" />
-    <ClInclude Include="Shader.h" />
-    <ClInclude Include="SpriteRenderer.h" />
-    <ClInclude Include="Texture.h" />
+    <ClInclude Include="include\BallObject.h" />
+    <ClInclude Include="include\Game.h" />
+    <ClInclude Include="include\GameLevel.h" />
+    <ClInclude Include="include\GameObject.h" />
+    <ClInclude Include="include\LoadUtility.h" />
+    <ClInclude Include="include\PowerUp.h" />
+    <ClInclude Include="include\ParticleGenerator.h" />
+    <ClInclude Include="include\PostProcessor.h" />
+    <ClInclude Include="include\ResourceManager.h" />
+    <ClInclude Include="include\Shader.h" />
+    <ClInclude Include="include\SpriteRenderer.h" />
+    <ClInclude Include="include\Texture.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="jhin.lvl" />
-    <None Include="one.lvl" />
-    <None Include="Particle.frag" />
-    <None Include="Particle.vert" />
-    <None Include="PostProcessing.frag" />
-    <None Include="PostProcessing.vert" />
-    <None Include="Sprite.frag" />
-    <None Include="Sprite.vert" />
-    <None Include="three.lvl" />
-    <None Include="two.lvl" />
+    <None Include="levels\jhin.lvl" />
+    <None Include="levels\one.lvl" />
+    <None Include=".gitignore" />
+    <None Include="src\Particle.frag" />
+    <None Include="src\Particle.vert" />
+    <None Include="src\PostProcessing.frag" />
+    <None Include="src\PostProcessing.vert" />
+    <None Include="src\Sprite.frag" />
+    <None Include="src\Sprite.vert" />
+    <None Include="levels\three.lvl" />
+    <None Include="levels\two.lvl" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="awesomeface.png" />

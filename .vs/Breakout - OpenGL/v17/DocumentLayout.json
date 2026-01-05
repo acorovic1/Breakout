@@ -1,28 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\VISUAL STUDIO PROJECTS\\Breakout - OpenGL\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{7922A70A-B16D-4AA9-9306-4276387D724A}|Breakout - OpenGL.vcxproj|C:\\VISUAL STUDIO PROJECTS\\Breakout - OpenGL\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7922A70A-B16D-4AA9-9306-4276387D724A}|Breakout - OpenGL.vcxproj|solutionrelative:Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7922A70A-B16D-4AA9-9306-4276387D724A}|Breakout - OpenGL.vcxproj|C:\\VISUAL STUDIO PROJECTS\\Breakout - OpenGL\\ResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7922A70A-B16D-4AA9-9306-4276387D724A}|Breakout - OpenGL.vcxproj|solutionrelative:ResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7922A70A-B16D-4AA9-9306-4276387D724A}|Breakout - OpenGL.vcxproj|C:\\VISUAL STUDIO PROJECTS\\Breakout - OpenGL\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7922A70A-B16D-4AA9-9306-4276387D724A}|Breakout - OpenGL.vcxproj|solutionrelative:Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7922A70A-B16D-4AA9-9306-4276387D724A}|Breakout - OpenGL.vcxproj|C:\\VISUAL STUDIO PROJECTS\\Breakout - OpenGL\\PostProcessing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7922A70A-B16D-4AA9-9306-4276387D724A}|Breakout - OpenGL.vcxproj|solutionrelative:PostProcessing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7922A70A-B16D-4AA9-9306-4276387D724A}|Breakout - OpenGL.vcxproj|C:\\VISUAL STUDIO PROJECTS\\Breakout - OpenGL\\PostProcessor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7922A70A-B16D-4AA9-9306-4276387D724A}|Breakout - OpenGL.vcxproj|solutionrelative:PostProcessor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\adnan\\Desktop\\Breakout\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,76 +9,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResourceManager.cpp",
-              "DocumentMoniker": "C:\\VISUAL STUDIO PROJECTS\\Breakout - OpenGL\\ResourceManager.cpp",
-              "RelativeDocumentMoniker": "ResourceManager.cpp",
-              "ToolTip": "C:\\VISUAL STUDIO PROJECTS\\Breakout - OpenGL\\ResourceManager.cpp",
-              "RelativeToolTip": "ResourceManager.cpp",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-12T21:09:13.246Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Shader.cpp",
-              "DocumentMoniker": "C:\\VISUAL STUDIO PROJECTS\\Breakout - OpenGL\\Shader.cpp",
-              "RelativeDocumentMoniker": "Shader.cpp",
-              "ToolTip": "C:\\VISUAL STUDIO PROJECTS\\Breakout - OpenGL\\Shader.cpp",
-              "RelativeToolTip": "Shader.cpp",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-12T21:05:18.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Shader.h",
-              "DocumentMoniker": "C:\\VISUAL STUDIO PROJECTS\\Breakout - OpenGL\\Shader.h",
-              "RelativeDocumentMoniker": "Shader.h",
-              "ToolTip": "C:\\VISUAL STUDIO PROJECTS\\Breakout - OpenGL\\Shader.h",
-              "RelativeToolTip": "Shader.h",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAABEAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-12T21:03:30.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PostProcessing.cpp",
-              "DocumentMoniker": "C:\\VISUAL STUDIO PROJECTS\\Breakout - OpenGL\\PostProcessing.cpp",
-              "RelativeDocumentMoniker": "PostProcessing.cpp",
-              "ToolTip": "C:\\VISUAL STUDIO PROJECTS\\Breakout - OpenGL\\PostProcessing.cpp",
-              "RelativeToolTip": "PostProcessing.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-02T16:40:11.154Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PostProcessor.h",
-              "DocumentMoniker": "C:\\VISUAL STUDIO PROJECTS\\Breakout - OpenGL\\PostProcessor.h",
-              "RelativeDocumentMoniker": "PostProcessor.h",
-              "ToolTip": "C:\\VISUAL STUDIO PROJECTS\\Breakout - OpenGL\\PostProcessor.h",
-              "RelativeToolTip": "PostProcessor.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-02T16:40:18.037Z"
             }
           ]
         }

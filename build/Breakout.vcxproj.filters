@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\adnan\Desktop\Breakout\src\BallObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\adnan\Desktop\Breakout\src\Breakout - OpenGL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\adnan\Desktop\Breakout\src\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\adnan\Desktop\Breakout\src\GameLevel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\adnan\Desktop\Breakout\src\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\adnan\Desktop\Breakout\src\LoadUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\adnan\Desktop\Breakout\src\ParticleGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\adnan\Desktop\Breakout\src\PostProcessing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\adnan\Desktop\Breakout\src\ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\adnan\Desktop\Breakout\src\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\adnan\Desktop\Breakout\src\SpriteRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\adnan\Desktop\Breakout\src\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\adnan\Desktop\Breakout\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\adnan\Desktop\Breakout\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\adnan\Desktop\Breakout\src\Particle.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="C:\Users\adnan\Desktop\Breakout\src\Particle.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="C:\Users\adnan\Desktop\Breakout\src\PostProcessing.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="C:\Users\adnan\Desktop\Breakout\src\PostProcessing.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="C:\Users\adnan\Desktop\Breakout\src\Sprite.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="C:\Users\adnan\Desktop\Breakout\src\Sprite.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{66A6FE33-FE59-36BC-921C-12C0B7243083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{073E52CD-47CD-3918-80EC-E7BDE45BB50C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

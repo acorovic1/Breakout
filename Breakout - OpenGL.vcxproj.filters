@@ -24,109 +24,116 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Breakout - OpenGL.cpp">
+    <ClCompile Include="src\Breakout - OpenGL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="glad.c">
+    <ClCompile Include="src\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Game.cpp">
+    <ClCompile Include="src\Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Shader.cpp">
+    <ClCompile Include="src\Shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Texture.cpp">
+    <ClCompile Include="src\Texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ResourceManager.cpp">
+    <ClCompile Include="src\ResourceManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SpriteRenderer.cpp">
+    <ClCompile Include="src\SpriteRenderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GameObject.cpp">
+    <ClCompile Include="src\GameObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GameLevel.cpp">
+    <ClCompile Include="src\GameLevel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BallObject.cpp">
+    <ClCompile Include="src\BallObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ParticleGenerator.cpp">
+    <ClCompile Include="src\ParticleGenerator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PostProcessing.cpp">
+    <ClCompile Include="src\PostProcessing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LoadUtility.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Game.h">
+    <ClInclude Include="include\Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Shader.h">
+    <ClInclude Include="include\Shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Texture.h">
+    <ClInclude Include="include\Texture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ResourceManager.h">
+    <ClInclude Include="include\ResourceManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SpriteRenderer.h">
+    <ClInclude Include="include\SpriteRenderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GameObject.h">
+    <ClInclude Include="include\GameObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GameLevel.h">
+    <ClInclude Include="include\GameLevel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BallObject.h">
+    <ClInclude Include="include\BallObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ParticleGenerator.h">
+    <ClInclude Include="include\ParticleGenerator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PostProcessor.h">
+    <ClInclude Include="include\PostProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PowerUp.h">
+    <ClInclude Include="include\PowerUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LoadUtility.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Sprite.vert">
+    <None Include="src\Sprite.vert">
       <Filter>Resource Files\Shaders</Filter>
     </None>
-    <None Include="Sprite.frag">
+    <None Include="src\Sprite.frag">
       <Filter>Resource Files\Shaders</Filter>
     </None>
-    <None Include="one.lvl">
+    <None Include="levels\one.lvl">
       <Filter>Resource Files\Levels</Filter>
     </None>
-    <None Include="two.lvl">
+    <None Include="levels\two.lvl">
       <Filter>Resource Files\Levels</Filter>
     </None>
-    <None Include="three.lvl">
+    <None Include="levels\three.lvl">
       <Filter>Resource Files\Levels</Filter>
     </None>
-    <None Include="jhin.lvl">
+    <None Include="levels\jhin.lvl">
       <Filter>Resource Files\Levels</Filter>
     </None>
-    <None Include="Particle.vert">
+    <None Include="src\Particle.vert">
       <Filter>Resource Files\Shaders</Filter>
     </None>
-    <None Include="Particle.frag">
+    <None Include="src\Particle.frag">
       <Filter>Resource Files\Shaders</Filter>
     </None>
-    <None Include="PostProcessing.vert">
+    <None Include="src\PostProcessing.vert">
       <Filter>Resource Files\Shaders</Filter>
     </None>
-    <None Include="PostProcessing.frag">
+    <None Include="src\PostProcessing.frag">
       <Filter>Resource Files\Shaders</Filter>
     </None>
+    <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="awesomeface.png">
